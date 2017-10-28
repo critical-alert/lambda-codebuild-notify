@@ -39,4 +39,5 @@ def notify(event, context):
         ]
     }
 
-    return requests.post(url, json=payload)
+    r = requests.post(url, json=(payload))
+    return
